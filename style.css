@@ -55,7 +55,7 @@ flex-direction: column;
 }
 
 .logo img {
-  max-width: 70%;
+  min-width: 70%;
   margin-left: auto;	
   display: flex;
   align-self: center;
