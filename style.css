@@ -2,10 +2,10 @@
  :root {
     /* Updated pastel color palette */
     --soft-lavender: #271432;
-    --light-violet: #D4BEE4;
-    --muted-lilac: #ad8fcf;
-    --muted-light: #b69ed0; 
-    --subtle-gray: #EEEEEE;
+    --light-violet: #E9DFF0;
+    --muted-lilac: #cdb7dd;
+    --muted-light: #D3C3E3;
+    --subtle-gray: #F5F5F5;
     --accent-dark: #0b0411;
  }
 
@@ -69,6 +69,7 @@ header nav a{
   overflow: hidden;
   display: block; 
   font-size: 3vh;
+  float: left;
   
 }
 
