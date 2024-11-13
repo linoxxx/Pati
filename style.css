@@ -11,11 +11,12 @@
 
 body {
   height: 100%;
+  width: 100%;
   font-size: 100%;
   line-height: 1.5;
   font-family: "EB Garamond", serif;
   font-weight: 400;
-  font-style:italic;
+  font-style: italic;
   font-size: 4vb;
   color: var(--accent-dark);
   background-image: url("assets/bg.jpg");
@@ -43,7 +44,7 @@ header {
 }
 
 .holder {
-flex-direction: column;
+  flex-direction: column;
 }
 
 .logo h1 {
@@ -206,3 +207,54 @@ footer .social {
   display: flex;
   
 }
+
+/*responsive*/
+
+@media screen and (max-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+}
+
+@media screen and (max-width: 479px) {
+
+
+}
+
+@media screen and (max-width: 375px) {
+body, .holder, .logo, section, footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 4vw;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+  .logo h1 {
+    font-size: 10vw;
+  }
+  .left-container, .right-container {
+    margin-inline: 0;
+    padding: 1rem;
+  }
+  header {
+    padding: 0;
+}
+  footer .contact-container {
+    flex-direction: column;
+    gap:0;
+    margin: 0;
+    padding: 5px;
+  }
+  footer .donate {
+    padding: 0;
+  }
+  footer .copyright {
+    width: 100%;
+  }
+ 
+} 
