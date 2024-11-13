@@ -1,0 +1,203 @@
+
+ :root {
+    /* Updated pastel color palette */
+    --soft-lavender: #EADAF3;
+    --light-violet: #D4B8E8;
+    --muted-lilac: #C3A1D9;
+    --subtle-gray: #F2F2F2;
+    --accent-dark: #6A0DAD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+body {
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vb;
+  background-image: url("assets/bg.jpg");
+  background-position: center;   
+  background-repeat: no-repeat; 
+  background-size: cover;   
+  padding: 0;
+}
+
+header {
+  color: var(--deep-violet);
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  color: var(--deep-violet);
+  margin-bottom: 6vh;
+}
+
+.logo h1 {
+  font-size: 10vh;
+}
+
+.logo h3 {
+  font-size: 4vh;
+}
+
+.logo img {
+  max-width: 35%;
+  margin: auto;	
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+
+}
+
+header nav a{
+  list-style-type: none;			
+  text-decoration: none;			
+  overflow: hidden;
+  display: inline-block; 
+  font-size: 3vh;
+}
+header nav {
+  margin-left: auto;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  gap: 0;
+}
+
+.left-container, .right-container {
+  padding: 7rem;
+}
+
+.bg, .waves, .path-bg, .body-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.waves {
+  background-image: url("assets/jesien.jpg");
+}
+
+.path-bg {
+  background-image: url("assets/faith.jpg");
+  
+}
+
+.body-bg {
+background-image: url("assets/true.jpg");
+}
+
+.faith {
+  background: rgb(220,200,230);
+  background: linear-gradient(75deg, rgba(220,200,230,1) 0%, rgba(247,247,247,1) 100%);
+  
+}
+
+.path {
+background: rgb(242,191,66);
+background: linear-gradient(96deg, rgba(242,191,66,1) 0%, rgba(246,241,228,0.2678571428571429) 28%);
+}
+.yahushua {
+  background: rgb(105,53,156);
+  background: linear-gradient(263deg, rgba(105,53,156,0.08858543417366949) 0%, rgba(224,176,255,0.09418767507002801) 15%);
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button,
+input {
+    border: 0;
+    background: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+footer .support-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background: rgb(255,255,255);
+background: linear-gradient(113deg, rgba(255,255,255,1) 0%, rgba(220,200,230,0.17542016806722693) 100%);
+}
+footer .donate {
+  background: rgb(255,255,255);
+background: linear-gradient(172deg, rgba(255,255,255,1) 0%, rgba(191,196,194,0) 100%);
+  padding: 2.5rem;
+  text-align: center;
+  margin: 3rem;
+  border: 3px solid inherit;
+  border-radius: 15px;
+}
+
+footer .donate p, a {
+  margin: 1rem;
+}
+
+footer .contact-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-inline: 5rem;
+  padding-block: 2rem;
+  gap: 2rem;
+  background: url("assets/clouds2.jpg");
+  background-size: cover;
+ margin: 0;
+  
+}
+
+footer .copyright {
+  max-width: 45%;
+}
+
+footer .social {
+  margin-left: auto;
+  background: red;
+}
