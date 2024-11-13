@@ -197,9 +197,12 @@ footer .contact-container {
 
 footer .copyright {
   max-width: 45%;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
 footer .social {
   margin-left: auto;
-  background: red;
+  display: flex;
+  
 }
