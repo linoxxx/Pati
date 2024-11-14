@@ -71,6 +71,7 @@ header {
   font-family: "Cinzel Decorative", serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 header nav a {
   font-size: 1rem;
@@ -80,9 +81,6 @@ header nav a {
   font-style: italic;
   font-size: 4vb;
   color: var(--accent-dark);
-}
-header nav {
-  padding: 1rem;
 }
 
 /* Section Grid for Mobile */
