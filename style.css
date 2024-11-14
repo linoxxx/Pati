@@ -24,14 +24,21 @@ body {
 
 .path-bg {
   background-image: url("assets/waves.webp");
+  background-position: center;   
+  background-repeat: no-repeat; 
+  background-size: cover;   
 }
 
 .waves {
   background-image: url("assets/jesien.jpg");
+  background-position: center;   
+  background-repeat: no-repeat; 
+  background-size: cover;   
 }
 
 .yahushua {
   background-color:var(--light-violet);
+  
 }
 .body-bg {
   background: var(--muted-light);
