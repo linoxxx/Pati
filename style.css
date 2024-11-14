@@ -10,12 +10,12 @@
 }
 /* Base mobile-first styling */
 body {
-  font-size: 1rem;
+  font-size: clamp(1.3rem, 2vw + 1rem, 1.5rem);
   padding: 1rem;
   font-family: "EB Garamond", serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 4vb;
+  font-size: 3vw;
   color: var(--accent-dark);
   background-image: url("assets/bg.jpg");
   background-position: center;   
@@ -146,7 +146,7 @@ footer .contact-container {
   }
 }
 
-@media (max-width: 478px) {
+@media (max-width: 767px) {
   .holder {
     text-align: center;
   }
@@ -157,6 +157,8 @@ footer .contact-container {
   body {
     padding: 0;
     margin: 0;
+    font-size: 1.5rem;
+   
   }
   header h1 {
     margin: 0;
@@ -167,6 +169,12 @@ footer .contact-container {
  }
   .path-bg {
     padding: 0;
+  }
+  .copyright {
+    padding-inline: 1rem;
+  }
+  .social {
+    margin-block: 1rem;
   }
 }
 
