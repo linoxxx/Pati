@@ -11,7 +11,7 @@
 /* Base mobile-first styling */
 body {
   font-size: clamp(1.3rem, 2vw + 1rem, 1.6rem);
-  padding: 1rem;
+  margin: 0;
   font-family: "EB Garamond", serif;
   font-weight: 400;
   font-style: italic;
@@ -68,13 +68,15 @@ header {
 }
 header nav a {
   font-size: 1rem;
-  float: none;
   text-decoration: none;
   font-family: "EB Garamond", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 4vb;
   color: var(--accent-dark);
+}
+header nav {
+  padding: 1rem;
 }
 
 /* Section Grid for Mobile */
@@ -118,8 +120,12 @@ footer .contact-container {
 .donate h3, .donate p {
   margin: 0.5rem;
 }
+
+.social a img {
+  width: 15%;
+}
 /* Tablet and Larger Screens */
-@media (min-width: 479px) {
+@media (min-width: 760px) {
   .logo {
     display: flex;
     align-items: center;
@@ -182,6 +188,7 @@ footer .contact-container {
   .social {
     margin-block: 1rem;
   }
+ 
 }
 
 /* Desktop */
@@ -198,8 +205,13 @@ footer .contact-container {
   }
 
   .left-container, .right-container {
-      padding: 4rem;
+      padding: 2rem;
   }
+  .left-container h2, .right-container h2 {
+    margin: 0;
+  }
+  
+
   footer .contact-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -207,6 +219,8 @@ footer .contact-container {
     gap: 2rem;
     margin: auto;
     padding-inline: 10vw;
+    justify-content: center;
+    align-items: center;
   }
 }
 
