@@ -141,5 +141,19 @@
     </div>
   </div>
 </footer>
+  <button id="upButton" onclick="scrollToTop()">
+  <img src="assets/up.svg" alt="Up" />
+</button>
+<script>
+  window.onscroll = function() {
+    const button = document.getElementById("upButton");
+    button.style.display = window.scrollY > 200 ? "block" : "none";
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+
 </body>
 </html>

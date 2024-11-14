@@ -203,3 +203,21 @@ footer .contact-container {
     padding-inline: 10vw;
   }
 }
+
+/* arrow up top to page*/
+#upButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+#upButton img {
+  width: 30px; /* Adjust as needed */
+  height: auto;
+}
+
