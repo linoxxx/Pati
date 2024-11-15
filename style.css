@@ -346,6 +346,10 @@ nav {
   }
 }
 
+.social img {
+  width: 8vh;
+}
+
 /* arrow up top to page*/
 #upButton {
   position: fixed;
