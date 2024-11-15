@@ -127,6 +127,7 @@ header {
   height: auto;
   font-style: normal;
   color: var(--soft-lavender);
+  margin-top: 1%;
 }
 
 .logo h1 {
@@ -143,7 +144,6 @@ header {
   
 }
 header nav a {
-  font-size: 1rem;
   text-decoration: none;
   font-family: "EB Garamond", serif;
   font-weight: 400;
