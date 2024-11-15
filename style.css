@@ -22,6 +22,55 @@ body {
   background-repeat: no-repeat; 
   background-size: cover;  
 }
+
+.logo-img {
+  animation: logo-intro 6s cubic-bezier(0.55, 0, 1, 0.45) 1s 1 normal forwards;
+}
+
+@keyframes logo-intro {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: scale(0.7);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: scale(0.84);
+	}
+
+	89% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: scale(0.95);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
 .path-bg {
   background-image: url("assets/waves.webp");
   background-position: center;   
