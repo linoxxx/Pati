@@ -53,30 +53,21 @@ body {
 .intro-left {
   background-image: linear-gradient(
     270deg,
-    hsl(25deg 38% 59%) 0%,
-    hsl(25deg 38% 61%) 0%,
-    hsl(25deg 38% 63%) 0%,
-    hsl(25deg 39% 65%) 0%,
-    hsl(25deg 39% 67%) 1%,
-    hsl(25deg 39% 69%) 2%,
-    hsl(25deg 40% 71%) 3%,
-    hsl(25deg 40% 73%) 5%,
-    hsl(24deg 40% 75%) 7%,
-    hsl(24deg 41% 77%) 9%,
-    hsl(24deg 41% 79%) 12%,
-    hsl(24deg 42% 81%) 15%,
-    hsl(24deg 42% 82%) 19%,
-    hsl(24deg 42% 84%) 23%,
-    hsl(24deg 43% 86%) 28%,
-    hsl(24deg 43% 88%) 33%,
-    hsl(24deg 43% 90%) 39%,
-    hsl(24deg 44% 92%) 46%,
-    hsl(23deg 44% 94%) 54%,
-    hsl(23deg 44% 96%) 64%,
-    hsl(23deg 45% 98%) 77%,
+    hsl(27deg 36% 90%) 0%,
+    hsl(27deg 36% 91%) 0%,
+    hsl(27deg 36% 92%) 1%,
+    hsl(27deg 36% 93%) 4%,
+    hsl(26deg 36% 94%) 8%,
+    hsl(26deg 37% 95%) 14%,
+    hsl(26deg 37% 96%) 22%,
+    hsl(26deg 37% 97%) 32%,
+    hsl(26deg 37% 98%) 45%,
+    hsl(26deg 37% 99%) 63%,
     hsl(0deg 0% 100%) 100%
   );
 }
+
+
 .yahushua {
   background-image: linear-gradient(
     270deg,
