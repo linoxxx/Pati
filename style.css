@@ -388,6 +388,7 @@ body.dark-mode .logo h3 {
   color: #ffffff;
 }
 
+body.dark-mode .intro-left,
 body.dark-mode header,
 body.dark-mode footer,
 body.dark-mode .path,
@@ -396,10 +397,11 @@ body.dark-mode .faith {
   background: #1e1e1e; /* Override gradient or images for plain dark background */
 }
 
+body.dark-mode .intro-right,
 body.dark-mode .waves,
 body.dark-mode .body-bg,
 body.dark-mode .path-bg {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 body.dark-mode footer img,
