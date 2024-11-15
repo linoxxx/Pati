@@ -301,7 +301,7 @@ footer .contact-container {
   header h1 {
     margin: 0;
   }
-  .waves {
+  .waves, .body-bg {
     height: 100vw;
     background-position: center;
  }
