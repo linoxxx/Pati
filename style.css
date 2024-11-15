@@ -1,11 +1,7 @@
 
     /* Updated pastel color palette */
 :root {
-    --soft-lavender: #271432;
-    --light-violet: #rgba(232, 220, 241, 0.5);
-    --muted-lilac: rgb(255, 243, 252);
-    --muted-light: rgb(238 185 255 / 14%);
-    --subtle-gray: rgba(245, 245, 245, 1);
+    --soft-lavender: #120718;
     --accent-dark: #0b0411;
 }
 /* Base mobile-first styling */
@@ -44,19 +40,88 @@ body {
   justify-content: center;
 }
 .yahushua {
-  background-color:var(--light-violet);
+  background-image: linear-gradient(
+    270deg,
+    hsl(282deg 87% 97%) 0%,
+    hsl(282deg 87% 97%) 20%,
+    hsl(282deg 87% 98%) 30%,
+    hsl(282deg 87% 98%) 33%,
+    hsl(282deg 87% 98%) 35%,
+    hsl(282deg 87% 98%) 38%,
+    hsl(282deg 87% 99%) 42%,
+    hsl(282deg 87% 99%) 47%,
+    hsl(282deg 87% 99%) 55%,
+    hsl(282deg 87% 99%) 64%,
+    hsl(282deg 87% 100%) 74%,
+    hsl(282deg 87% 100%) 87%,
+    hsl(0deg 0% 100%) 100%
+  );
   
 }
 .body-bg {
-  background: var(--muted-light);
+  background-image: linear-gradient(
+    270deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(282deg 87% 100%) 4%,
+    hsl(282deg 87% 100%) 8%,
+    hsl(282deg 87% 99%) 13%,
+    hsl(282deg 87% 99%) 19%,
+    hsl(282deg 87% 99%) 25%,
+    hsl(282deg 87% 99%) 31%,
+    hsl(282deg 87% 99%) 38%,
+    hsl(282deg 87% 98%) 46%,
+    hsl(282deg 87% 98%) 55%,
+    hsl(282deg 87% 98%) 64%,
+    hsl(282deg 87% 98%) 74%,
+    hsl(282deg 87% 97%) 83%,
+    hsl(282deg 87% 97%) 92%,
+    hsl(282deg 87% 97%) 100%
+  );
 }
 
 .faith {
-  background-color: var(--light-violet);
+  background-image: linear-gradient(
+    180deg,
+    hsl(280deg 6% 90%) 0%,
+    hsl(280deg 8% 87%) 12%,
+    hsl(280deg 10% 85%) 29%,
+    hsl(280deg 12% 82%) 47%,
+    hsl(280deg 13% 80%) 62%,
+    hsl(280deg 13% 77%) 73%,
+    hsl(280deg 14% 75%) 81%,
+    hsl(280deg 14% 73%) 87%,
+    hsl(280deg 15% 70%) 92%,
+    hsl(280deg 15% 68%) 96%,
+    hsl(279deg 15% 66%) 98%,
+    hsl(279deg 16% 63%) 100%
+  );
 }
 
 .path {
-  background-color: var(--muted-lilac);
+  background-image: linear-gradient(
+    90deg,
+    hsl(0deg 0% 96%) 0%,
+    hsl(137deg 0% 96%) 5%,
+    hsl(137deg 0% 96%) 10%,
+    hsl(137deg 0% 97%) 15%,
+    hsl(137deg 0% 97%) 20%,
+    hsl(137deg 0% 97%) 25%,
+    hsl(137deg 0% 97%) 30%,
+    hsl(137deg 0% 97%) 35%,
+    hsl(137deg 0% 98%) 40%,
+    hsl(137deg 0% 98%) 45%,
+    hsl(137deg 0% 98%) 50%,
+    hsl(137deg 0% 98%) 55%,
+    hsl(137deg 0% 98%) 60%,
+    hsl(137deg 0% 99%) 65%,
+    hsl(137deg 0% 99%) 70%,
+    hsl(137deg 0% 99%) 75%,
+    hsl(137deg 0% 99%) 80%,
+    hsl(137deg 0% 99%) 85%,
+    hsl(137deg 0% 100%) 90%,
+    hsl(137deg 0% 100%) 95%,
+    hsl(0deg 0% 100%) 100%
+  );
 }
 
 /* Header and Logo Adjustments for Smaller Screens */
@@ -199,7 +264,10 @@ footer .contact-container {
   .social {
     margin-block: 1rem;
   }
- 
+  header nav a {
+    font-size: 8vw;
+    
+}
 }
 
 /* Desktop */
