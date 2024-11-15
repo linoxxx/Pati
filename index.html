@@ -16,7 +16,8 @@
 <body>
    <header>
      <nav>
-       <a href="index.html">Home</a>
+    <a href="index.html">Home</a>
+    <button id="darkModeToggle"><img src="assets/mode.png" alt="Dark Mode"></button>
      </nav>
      <div class="logo">
        <img src="assets/logo.jpg" alt="Logo" class="logo-img">
@@ -153,6 +154,17 @@
 
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+const darkModeToggle = document.getElementById("darkModeToggle");
+darkModeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    localStorage.setItem("dark-mode", document.body.classList.contains("dark-mode"));
+});
+
+// Apply saved dark mode on load
+if (localStorage.getItem("dark-mode") === "true") {
+    document.body.classList.add("dark-mode");
 }
 </script>
 

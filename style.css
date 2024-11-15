@@ -16,6 +16,7 @@ body {
   background-size: cover; 
 }
 
+
 .path-bg {
   background-image: url("assets/waves.webp");
   background-position: center;   
@@ -28,6 +29,13 @@ body {
   background-position: center;   
   background-repeat: no-repeat; 
   background-size: cover;   
+}
+
+.body-bg {
+    background-image: url("assets/clouds2.jpg");
+    background-position: center;   
+    background-repeat: no-repeat; 
+    background-size: cover;   
 }
 
 .logo {
@@ -54,26 +62,6 @@ body {
     hsl(0deg 0% 100%) 100%
   );
   
-}
-.body-bg {
-  background-image: linear-gradient(
-    270deg,
-    hsl(0deg 0% 100%) 0%,
-    hsl(282deg 87% 100%) 4%,
-    hsl(282deg 87% 100%) 8%,
-    hsl(282deg 87% 99%) 13%,
-    hsl(282deg 87% 99%) 19%,
-    hsl(282deg 87% 99%) 25%,
-    hsl(282deg 87% 99%) 31%,
-    hsl(282deg 87% 99%) 38%,
-    hsl(282deg 87% 98%) 46%,
-    hsl(282deg 87% 98%) 55%,
-    hsl(282deg 87% 98%) 64%,
-    hsl(282deg 87% 98%) 74%,
-    hsl(282deg 87% 97%) 83%,
-    hsl(282deg 87% 97%) 92%,
-    hsl(282deg 87% 97%) 100%
-  );
 }
 
 .faith {
@@ -127,7 +115,7 @@ header {
   height: auto;
   font-style: normal;
   color: var(--soft-lavender);
-  margin-top: 1%;
+  padding-top: 1%;
 }
 
 .logo h1 {
@@ -150,6 +138,11 @@ header nav a {
   font-style: italic;
   font-size: 4vb;
   color: var(--accent-dark);
+}
+
+nav img {
+  width: 10%;
+
 }
 
 /* Section Grid for Mobile */
@@ -224,8 +217,31 @@ footer .contact-container {
   margin: 0.5rem;
 }
 
-.social a img {
-  width: 15%;
+
+
+#darkModeToggle {
+  border: none;
+  background-color: transparent;
+  width: 10vh;
+  justify-self: center;
+  align-self: center;
+  transition: all 0.7s ease;
+  
+}
+#darkModeToggle:hover {
+  transform: scale(1.7);
+}
+
+
+nav img {
+  width:fit-content;
+ 
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
 }
 /* Tablet and Larger Screens */
 @media (min-width: 760px) {
@@ -345,5 +361,62 @@ footer .contact-container {
 #upButton img {
   width: 30px; /* Adjust as needed */
   height: auto;
+  
 }
 
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode footer {
+  color: #bbbbbb;
+}
+
+body.dark-mode header nav a {
+  color: #bb86fc;
+}
+
+body.dark-mode img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+}
+
+body.dark-mode .logo h1, 
+body.dark-mode .logo h3 {
+  color: #ffffff;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode .path,
+body.dark-mode .yahushua,
+body.dark-mode .faith {
+  background: #1e1e1e; /* Override gradient or images for plain dark background */
+}
+
+body.dark-mode .waves,
+body.dark-mode .body-bg,
+body.dark-mode .path-bg {
+  filter: brightness(50%);
+}
+
+body.dark-mode footer img,
+body.dark-mode .logo-img {
+  filter: invert(1); /* Invert social media icons for dark mode */
+}
+
+body.dark-mode #upButton {
+  background-color: #ffffff;
+}
+
+body.dark-mode .donate {
+  border: 1px solid #bb86fc;
+}
+
+body.dark-mode .donate h3,
+body.dark-mode .donate p {
+  color: #ffffff;
+  
+}
