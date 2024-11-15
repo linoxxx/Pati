@@ -1,7 +1,4 @@
-
-    /* Updated pastel color palette */
 :root {
-    --soft-lavender: #120718;
     --accent-dark: #0b0411;
 }
 /* Base mobile-first styling */
@@ -179,6 +176,36 @@ footer .support-container, footer .contact-container {
   font-size: 1.3rem;
 }
 
+footer {
+  background-image: linear-gradient(
+    0deg,
+    hsl(260deg 33% 96%) 0%,
+    hsl(260deg 33% 97%) 33%,
+    hsl(260deg 33% 97%) 47%,
+    hsl(260deg 33% 97%) 56%,
+    hsl(260deg 33% 97%) 62%,
+    hsl(260deg 33% 97%) 67%,
+    hsl(260deg 33% 97%) 71%,
+    hsl(260deg 33% 97%) 74%,
+    hsl(260deg 33% 98%) 77%,
+    hsl(260deg 33% 98%) 80%,
+    hsl(260deg 33% 98%) 82%,
+    hsl(260deg 33% 98%) 84%,
+    hsl(260deg 33% 98%) 86%,
+    hsl(260deg 33% 98%) 87%,
+    hsl(260deg 33% 99%) 89%,
+    hsl(260deg 33% 99%) 90%,
+    hsl(260deg 33% 99%) 92%,
+    hsl(260deg 33% 99%) 93%,
+    hsl(260deg 33% 99%) 94%,
+    hsl(260deg 33% 99%) 95%,
+    hsl(260deg 33% 99%) 96%,
+    hsl(260deg 33% 100%) 97%,
+    hsl(260deg 33% 100%) 98%,
+    hsl(260deg 34% 100%) 99%,
+    hsl(0deg 0% 100%) 100%
+  );
+}
 footer .contact-container {
 
   padding: 0;
